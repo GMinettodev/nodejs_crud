@@ -12,9 +12,11 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.6.5",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.0-dev.20231005"
   },
   "dependencies": {
     "mysql": "^2.18.1"
-  }
+  },
+    "module": "esnext",
+    "moduleResolution": "node"
 }
