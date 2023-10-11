@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/create_user.js"></script>
     <title>User</title>
 </head>
+
 <body>
-    <h1 id="username"></h1>
-    <h1 id="password"></h1>
+    <form>
+        <div>
+            <label for="username">Username:</label>
+            <input id="username" name="username" type="text" placeholder="username" />
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password" placeholder="username" />
+            <input type="submit" value="Send" onclick="send_alert()" />
+        </div>
+    </form>
+
 </body>
+
 </html>
